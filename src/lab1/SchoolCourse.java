@@ -12,7 +12,7 @@ public abstract class SchoolCourse {
     private String courseNumber;
     private double credits;
 
-    public SchoolCourse(String courseName, String courseNumber) {
+    public void setCourseInfo(String courseName, String courseNumber) {
         setCourseName(courseName);
         setCourseNumber(courseNumber);
     }
