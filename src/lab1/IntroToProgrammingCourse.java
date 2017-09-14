@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  * This class inherits everything from the
- * super class, SchoolCourse.
+ * super class.
  * NOTE: this class has NO PREREQUISITES!
  * Do not change this fact.
  *
