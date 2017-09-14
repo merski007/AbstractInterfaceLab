@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 public class SchoolCourseWithPrerequisites extends SchoolCourse {
     private String prerequisites;
     
-        public String getPrerequisites() {
+    public String getPrerequisites() {
         return prerequisites;
     }
 

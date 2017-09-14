@@ -6,6 +6,16 @@ package lab1;
  */
 public class Startup {
     public static void main(String[] args) {
+        SchoolCourse c1 = new IntroToProgrammingCourse();
+        SchoolCourse c2 = new IntroJavaCourse();
+        SchoolCourse c3 = new AdvancedJavaCourse();
+        SchoolCourseWithPrerequisites c4 = new IntroJavaCourse();
+        
+        c1.setCourseInfo("Intro To Programming", "101-125");
+        c2.setCourseInfo("Intro To Programming", "152-131");
+        c3.setCourseInfo("Advanced Java", "152-150");
+        
+        c4.setPrerequisites("Intro To Programming");
         
         
         /**
