@@ -3,10 +3,12 @@ package lab1;
 import javax.swing.JOptionPane;
 
 /**
- * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
+ * This is the parent class. Properties and methods here
+ * contain course information. 
+ * NOTE: this class has NO PREREQUISITES!
  * Do not change this fact.
  *
- * @author      your name goes here
+ * @author      mmersenski
  * @version     1.00
  */
 public class IntroToProgrammingCourse {
