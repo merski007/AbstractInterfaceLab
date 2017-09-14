@@ -11,7 +11,6 @@ public abstract class SchoolCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
-    private String prerequisites;
 
     public SchoolCourse(String courseName, String courseNumber) {
         setCourseName(courseName);
@@ -56,13 +55,5 @@ public abstract class SchoolCourse {
         }
         this.credits = credits;
     }
-
-    public String getPrerequisites() {
-        return prerequisites;
-    }
-
-    //setting as abstract so i can create final (concrete) methods in sub-classes
-    //that do not have prerequisite requirements
-    public abstract void setPrerequisites(String prerequisites);
 
 }
