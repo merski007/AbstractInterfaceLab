@@ -9,22 +9,32 @@ public class Startup {
         SchoolCourse c1 = new IntroToProgrammingCourse();
         SchoolCourse c2 = new IntroJavaCourse();
         SchoolCourse c3 = new AdvancedJavaCourse();
-        SchoolCourseWithPrerequisites c4 = new IntroJavaCourse();
         
         c1.setCourseInfo("Intro To Programming", "101-125");
-        c2.setCourseInfo("Intro To Programming", "152-131");
+        c2.setCourseInfo("Intro To Java", "152-131");
         c3.setCourseInfo("Advanced Java", "152-150");
         
-        c4.setPrerequisites("Intro To Programming");
+        SchoolCourseWithPrerequisites pr1 = new IntroJavaCourse();
+        SchoolCourseWithPrerequisites pr2 = new AdvancedJavaCourse();
         
+        pr1.setPrerequisites("Intro To Programming");
+        pr2.setPrerequisites("Intro to Java");
         
         /**
          * Why do I need the subclasses for IntroToProgramming, IntroJavaCourse, and AdvancedJavaCourse?
          * Could I just use my SchoolCourse and SchoolCourseWithPrerequisites classes to create
-         * instances for each one?
+         * instances for each one? 
          * 
-         * I guess the only reason I would want to keep them around is incase I need to add properties
-         * or methods specific to the classes.
+         * Because I'm not using any abstract methods, I should set my superclass to a Concrete
+         * class, but i'll leave as an abstract class for the time being since that was 
+         * in the instructions.
+         * 
+         * 
+         * 
+         * The Liskov Substitution principle helps make the above code very flexible.
+         * For example, perhaps the intro java course no longer has a prerequisites course.
+         * The code variable pr1 could quickly be created as a SchooCourse object
+         * without having to change any other code.
          */
     }
 }
