@@ -2,15 +2,15 @@ package lab1;
 
 
 /**
- * This class inherits everything from the
- * super class.
- * NOTE: this class has NO PREREQUISITES!
+ * Describe responsibilities here. NOTE: this class has NO PREREQUISITES!
  * Do not change this fact.
  *
- * @author      mmersenski
+ * @author      your name goes here
  * @version     1.00
  */
 public class IntroToProgrammingCourse extends ProgrammingCourse {
-
-    
+    public IntroToProgrammingCourse(String courseName, String courseNumber) {
+        this.setCourseName(courseName);
+        this.setCourseNumber(courseNumber);
+    }
 }
