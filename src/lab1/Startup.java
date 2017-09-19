@@ -14,11 +14,6 @@ public class Startup {
         c2.setCourseInfo("Intro To Java", "152-131");
         c3.setCourseInfo("Advanced Java", "152-150");
         
-        SchoolCourseWithPrerequisites pr1 = new IntroJavaCourse();
-        SchoolCourseWithPrerequisites pr2 = new AdvancedJavaCourse();
-        
-        pr1.setPrerequisites("Intro To Programming");
-        pr2.setPrerequisites("Intro to Java");
         
         /**
          * Why do I need the subclasses for IntroToProgramming, IntroJavaCourse, and AdvancedJavaCourse?
