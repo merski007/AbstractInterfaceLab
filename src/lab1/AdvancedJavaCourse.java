@@ -1,14 +1,12 @@
 package lab1;
 
-import javax.swing.JOptionPane;
-
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
+ * @author      mmersenski
  * @version     1.00
  */
-public class AdvancedJavaCourse extends SchoolCourseWithPrerequisites {
+public class AdvancedJavaCourse extends SchoolCourse {
 
     
 }

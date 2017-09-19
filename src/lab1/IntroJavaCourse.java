@@ -6,7 +6,7 @@ package lab1;
  * @author      mmersenski
  * @version     1.00
  */
-public class IntroJavaCourse extends SchoolCourseWithPrerequisites {
+public class IntroJavaCourse extends SchoolCourse {
 
 
 }
