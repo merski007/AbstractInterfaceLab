@@ -10,7 +10,7 @@ package lab1;
  * @author      mmersenski
  * @version     1.00
  */
-public class IntroToProgrammingCourse extends SchoolCourse {
+public class IntroToProgrammingCourse extends ProgrammingCourse {
 
     
 }

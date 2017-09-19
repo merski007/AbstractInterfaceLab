@@ -6,7 +6,7 @@ package lab1;
  * @author      mmersenski
  * @version     1.00
  */
-public class AdvancedJavaCourse extends SchoolCourse {
+public class AdvancedJavaCourse extends ProgrammingCourse {
 
     
 }

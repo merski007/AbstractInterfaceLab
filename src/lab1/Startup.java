@@ -6,9 +6,9 @@ package lab1;
  */
 public class Startup {
     public static void main(String[] args) {
-        SchoolCourse c1 = new IntroToProgrammingCourse();
-        SchoolCourse c2 = new IntroJavaCourse();
-        SchoolCourse c3 = new AdvancedJavaCourse();
+        ProgrammingCourse c1 = new IntroToProgrammingCourse();
+        ProgrammingCourse c2 = new IntroJavaCourse();
+        ProgrammingCourse c3 = new AdvancedJavaCourse();
         
         c1.setCourseInfo("Intro To Programming", "101-125");
         c2.setCourseInfo("Intro To Java", "152-131");

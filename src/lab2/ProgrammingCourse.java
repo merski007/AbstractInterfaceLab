@@ -1,6 +1,6 @@
 package lab2;
 
-public interface SchoolCourse {
+public interface ProgrammingCourse {
     public void setCourseInfo(String courseName, String courseNumber);
 
     public String getCourseName();

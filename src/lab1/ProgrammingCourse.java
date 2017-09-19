@@ -4,7 +4,7 @@ package lab1;
  *
  * @author mjmersenski
  */
-public abstract class SchoolCourse {
+public abstract class ProgrammingCourse {
 
     private String courseName;
     private String courseNumber;

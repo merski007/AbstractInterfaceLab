@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author mjmersenski
  */
-public class SchoolCourseWithPrerequisites implements SchoolCourse {
+public class SchoolCourseWithPrerequisites implements ProgrammingCourse {
 
     private String courseName;
     private String courseNumber;
