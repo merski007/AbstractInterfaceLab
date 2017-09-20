@@ -1,17 +1,19 @@
 package lab2;
 
 public interface ProgrammingCourse {
-    public void setCourseInfo(String courseName, String courseNumber);
+    public abstract String getCourseName();
 
-    public String getCourseName();
+    public abstract void setCourseName(String courseName);
 
-    public void setCourseName(String courseName);
+    public abstract String getCourseNumber();
 
-    public String getCourseNumber();
+    public abstract void setCourseNumber(String courseNumber);
 
-    public void setCourseNumber(String courseNumber);
+    public abstract double getCredits();
 
-    public double getCredits();
-
-    public void setCredits(double credits);
+    public abstract void setCredits(double credits);
+    
+    public abstract String getPrerequisites();
+    
+    public abstract void setPrerequisites(String prerequisites);
 }
